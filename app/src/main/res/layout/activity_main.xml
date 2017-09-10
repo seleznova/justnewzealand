@@ -30,11 +30,13 @@
             android:fontFamily="sans-serif"
             android:text="0"
             android:textColor="#800000"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:layout_margin="16dp"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="I want to join" />
+            android:text="I want to join"
+            android:onClick="submitOrder"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
